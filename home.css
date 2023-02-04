@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+.pinknav{
+    display: flex;
+    background-color: #ee2961;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    padding-inline: 3vw;
+    color: white;
+    width: 100%;
+}
+.pinknav1{
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+}
+.pinknav2{
+    display: flex;
+    gap: 0.8vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+}
+.suruchi{
+    padding-left: 5vw;
+}
+.allcat{
+    border: 1px solid lightgray;
+    padding-block: 0.6vw;
+    padding-inline: 1vw;
+    border-radius: 2px;
+}
+.inputbar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+}
+.search >input{
+    width: 15vw;
+    padding-block: 0.5vw;
+}
+.searchimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ee2961;
+    width: 43px;
+    height: 43px;
+    border-radius: 2px;
+}
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6vw;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.like{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catbar{
+    display: contents;
+    align-items: center;
+}
+.cat{
+    display: flex;                          
+    gap: 2vw;
+}
+.bar{
+    display: flex;
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .navbar {   
+        flex-direction: column;
+    }
+}
